@@ -15,7 +15,7 @@ export default function HomePage() {
           <HeroBillboardCarousel
       tag="ESQIPI Agency"
       title='"Futuro, Inteligência e Tecnologia"'
-      description="Criamos experiências digitais fundamentadas em desafios reais de negócios. Mostramos como fazemos, não apenas o que já realizamos."
+      description="Criamos experiências digitais fundamentadas em desafios reais de negócios."
       primaryButton={{
         text: "Lets talk strategy",
         href: "#contact",
