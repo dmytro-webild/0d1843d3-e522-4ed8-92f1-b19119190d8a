@@ -14,7 +14,7 @@ export default function HomePage() {
     <SectionErrorBoundary name="hero">
           <HeroBillboardCarousel
       tag="ESQIPI Agency"
-      title="O Futuro do seu negócio começa com inteligência artificial."
+      title='"Futuro, Inteligência e Tecnologia"'
       description="Criamos experiências digitais fundamentadas em desafios reais de negócios. Mostramos como fazemos, não apenas o que já realizamos."
       primaryButton={{
         text: "Lets talk strategy",
