@@ -17,11 +17,11 @@ export default function HomePage() {
       title='"Futuro, Inteligência e Tecnologia"'
       description="Criamos experiências digitais fundamentadas em desafios reais de negócios."
       primaryButton={{
-        text: "Lets talk strategy",
+        text: "Vamos falar sobre estratégia.",
         href: "#contact",
       }}
       secondaryButton={{
-        text: "Explore Methodology",
+        text: "Explorar a metodologia",
         href: "#about",
       }}
       items={[
@@ -52,9 +52,11 @@ export default function HomePage() {
   <div id="about" data-section="about">
     <SectionErrorBoundary name="about">
           <AboutMediaOverlay
-      tag="Our Philosophy"
-      title="Partnership over performance"
-      description="We remove the guesswork from digital growth. Our team works as an extension of your company, focusing on pragmatic outcomes that move your business needle."
+      tag="Nossa filosofia
+"
+      title="Parceria aliada ao desempenho
+"
+      description="Eliminamos as incertezas do crescimento digital. Nossa equipe atua como uma extensão da sua empresa, focada em resultados pragmáticos que impulsionam o seu negócio."
       imageSrc="http://img.b2bpic.net/free-photo/coffee-cup-business-plan-paper_23-2147965656.jpg"
       textAnimation="slide-up"
     />
@@ -64,36 +66,44 @@ export default function HomePage() {
   <div id="services" data-section="services">
     <SectionErrorBoundary name="services">
           <FeaturesTaggedCards
-      tag="Capabilities"
-      title="Refined Methodology"
-      description="We focus on three primary pillars of digital engagement to ensure your business remains competitive."
+      tag="Capacidades"
+      title="Metodologia Refinada
+"
+      description="Concentramo-nos em três pilares fundamentais do engajamento digital para garantir que sua empresa permaneça competitiva.
+"
       items={[
         {
-          tag: "Strategy",
-          title: "Business Logic",
-          description: "Analyzing market vectors to establish clear business pathways.",
+          tag: "Estratégia",
+          title: "Lógica de Negócios
+",
+          description: "Analisar vetores de mercado para estabelecer caminhos de negócios claros.
+",
           primaryButton: {
-            text: "Learn more",
+            text: "Saber mais",
             href: "#",
           },
           imageSrc: "http://img.b2bpic.net/free-photo/laptop-notebook-cup-black-coffee-white-background-top-view_169016-35355.jpg",
         },
         {
-          tag: "Execution",
-          title: "Technical Precision",
-          description: "Building scalable interfaces that prioritize user clarity.",
+          tag: "Execução",
+          title: "Precisão técnica
+",
+          description: "Criar interfaces escaláveis ​​que priorizam a clareza para o usuário.
+",
           primaryButton: {
-            text: "Learn more",
+            text: "Saber mais",
             href: "#",
           },
           imageSrc: "http://img.b2bpic.net/free-photo/blue-technology-background_1017-3288.jpg",
         },
         {
-          tag: "Growth",
-          title: "Systemic Optimization",
-          description: "Continuous improvement through data-driven refinement.",
+          tag: "Crescimento",
+          title: "Otimização Sistêmica
+",
+          description: "Melhoria contínua por meio de refinamento orientado por dados.
+",
           primaryButton: {
-            text: "Learn more",
+            text: "Saber mais",
             href: "#",
           },
           imageSrc: "http://img.b2bpic.net/free-photo/close-up-female-hand-using-digital-tablet-tablet_1262-16042.jpg",
@@ -108,20 +118,25 @@ export default function HomePage() {
     <SectionErrorBoundary name="metrics">
           <MetricsSimpleCards
       tag="Transparency"
-      title="Efficiency Metrics"
-      description="We believe in clear accountability for all project deliverables."
+      title="Métricas de eficiência
+"
+      description="Acreditamos em uma definição clara de responsabilidade por todas as entregas do projeto.
+"
       metrics={[
         {
           value: "15+",
-          description: "Strategic Frameworks Refined",
+          description: "Estruturas Estratégicas Refinadas
+",
         },
         {
           value: "100%",
-          description: "Transparent Methodologies",
+          description: "Metodologias Transparentes
+",
         },
         {
           value: "42d",
-          description: "Avg Initial Deployment",
+          description: "Média de implantação inicial
+",
         },
       ]}
       textAnimation="slide-up"
@@ -132,23 +147,29 @@ export default function HomePage() {
   <div id="team" data-section="team">
     <SectionErrorBoundary name="team">
           <TeamOverlayCards
-      tag="Our Experts"
-      title="Committed Strategists"
-      description="Direct communication with the experts working on your project."
+      tag="Nossos especialistas
+"
+      title="Estrategistas Comprometidos
+"
+      description="Comunicação direta com os especialistas que trabalham no seu projeto.
+"
       members={[
         {
           name: "Ana Silva",
-          role: "Head of Strategy",
+          role: "Líder de Estratégia
+",
           imageSrc: "http://img.b2bpic.net/free-photo/medical-equipment-desk_23-2148519755.jpg",
         },
         {
           name: "Bruno Costa",
-          role: "Chief Architect",
+          role: "Arquiteto-Chefe
+",
           imageSrc: "http://img.b2bpic.net/free-photo/empty-business-office-with-cubicles-used-organizational-activity-efficiency_482257-125625.jpg",
         },
         {
           name: "Carla Mendes",
-          role: "Operations Director",
+          role: "Diretor de Operações
+",
           imageSrc: "http://img.b2bpic.net/free-photo/futuristic-technology-connects-internet-space-communication-sphere-generated-by-ai_188544-30796.jpg",
         },
       ]}
@@ -160,20 +181,25 @@ export default function HomePage() {
   <div id="faq" data-section="faq">
     <SectionErrorBoundary name="faq">
           <FaqSimple
-      tag="Process"
-      title="Direct Answers"
-      description="Understanding how we work before you commit to a partnership."
+      tag="Processoo"
+      title="Respostas Diretas
+"
+      description="Entenda como trabalhamos antes de firmar uma parceria.
+"
       items={[
         {
-          question: "How do we begin a project?",
+          question: "Como começamos um projeto?
+",
           answer: "We start with a discovery phase to align on core business objectives.",
         },
         {
-          question: "Are your processes transparent?",
+          question: "Seus processos são transparentes?
+",
           answer: "Yes, we provide full access to project trackers and status updates.",
         },
         {
-          question: "What is the typical engagement timeframe?",
+          question: "Qual é o prazo típico do engajamento?
+",
           answer: "Projects usually range from 3-6 months depending on scope.",
         },
       ]}
