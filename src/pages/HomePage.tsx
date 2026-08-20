@@ -15,7 +15,7 @@ export default function HomePage() {
           <HeroBillboardCarousel
       tag="ESQIPI Agency"
       title="Strategy that moves beyond surface solutions"
-      description="ESQIPI builds digital experiences grounded in real business challenges. We show you how, not just what we've done."
+      description="Criamos experiências digitais fundamentadas em desafios reais de negócios. Mostramos como fazemos, não apenas o que já realizamos."
       primaryButton={{
         text: "Lets talk strategy",
         href: "#contact",
