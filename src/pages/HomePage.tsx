@@ -13,7 +13,7 @@ export default function HomePage() {
   <div id="hero" data-section="hero">
     <SectionErrorBoundary name="hero">
           <HeroBillboardCarousel
-      tag="ESQIPI Agency"
+      tag="By Kevin Poliqueres"
       title='"Futuro, Inteligência e Tecnologia"'
       description="Criamos experiências digitais fundamentadas em desafios reais de negócios."
       primaryButton={{
